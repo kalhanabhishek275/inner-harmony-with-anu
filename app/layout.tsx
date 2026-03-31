@@ -22,7 +22,7 @@ const inter = Inter({
 
 export const metadata = {
   title: "Inner Harmony with Anu",
-  description: "Wellness and transformation coaching with compassion and clarity",
+  description: "Wellness and transformation coaching focused on clarity, emotional balance, and inner alignment.",
 };
 
 export default function RootLayout({
@@ -56,7 +56,9 @@ export default function RootLayout({
             </div>
 
             {/* BRAND RIGHT */}
-            <BrandHeader />
+            <div className="hidden md:block">
+              <BrandHeader />
+            </div>
 
           </nav>
         </header>
