@@ -73,7 +73,7 @@ export default function RootLayout({
           async
         ></script>
 
-        <main className="pt-20">
+        <main className="pt-14 md:pt-16">
           {children}
         </main>
 

@@ -8,8 +8,8 @@ export default function AboutPage() {
     <main className="bg-[#FAF9F6] text-[#2F3E34] min-h-screen">
 
       {/* ================= HERO SECTION ================= */}
-      <section className="px-8 md:px-16 pt-6 pb-10"> {/* Increased bottom padding slightly */}
-        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-14 items-center">
+      <section className="px-8 md:px-16 pt-0 pb-2"> {/* Increased bottom padding slightly */}
+        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center">
 
           {/* IMAGE */}
           <motion.div
@@ -19,7 +19,7 @@ export default function AboutPage() {
             className="flex justify-center"
           >
             <Image
-              src="/Anu-About.png"
+              src="/Anu About - No Background.png"
               alt="Anu Kalhan – Wellness and Transformation Coach"
               width={460}
               height={600}
@@ -60,7 +60,7 @@ export default function AboutPage() {
       </section>
 
       {/* ================= JOURNEY SECTION ================= */}
-      <section className="px-8 pt-12 pb-8">
+      <section className="px-8 pt-0 pb-8 -mt-6">
         <div className="max-w-4xl mx-auto text-base leading-[1.7] text-[#5F7F72] space-y-4">
 
           <p>

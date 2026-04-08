@@ -87,7 +87,7 @@ export default function ContactPage() {
             This is a gentle space to ask questions, share what you’re experiencing,
             or explore whether working together feels right for you.
             <br /><br />
-            There’s no pressure, no commitment — just an open conversation.
+            There’s no pressure, no commitment - just an open conversation.
           </motion.p>
 
           {/* FORM */}
